@@ -13,7 +13,7 @@ const Predictioin = () => {
       <br />
       <div name="contact" className="  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-800 md:text-5xl lg:text-6xl dark:text-white  ">
             Find the Best Dog Breed for You! <br />
               
@@ -30,7 +30,7 @@ const Predictioin = () => {
       
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             
 
           <h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Size</h3>

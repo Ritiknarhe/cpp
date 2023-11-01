@@ -13,9 +13,9 @@ const Bulldog = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-900 md:text-5xl lg:text-6xl dark:text-white  ">
-              Bull Dog <br />
+            <span className="text-blue-600">Bull</span> Dog <br />
               <span className="text-2xl font-semibold">
                 Guardians of Hearts, Keepers of Courage
               </span>
@@ -27,7 +27,7 @@ const Bulldog = () => {
               alt=""
             />
 
-            <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 mt-5 text-2xl text-gray-900 text-justify dark:text-white font-medium">
               Bulldogs, with their signature wrinkled face and distinctive
               pushed-in nose, are iconic symbols of resilience and tenacity.
               Originating from England, these sturdy dogs were initially bred
@@ -50,10 +50,10 @@ const Bulldog = () => {
       <div className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-4">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
+            <p className="text-4xl font-bold inline border-b-4 text-justify border-gray-500 ">
               {""}Qucik Facts{""}
             </p>
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white font-medium">
               <span className="text-3xl font-semibold"> Origin: </span>England,
               where they were initially bred for bull-baiting, now known for
               their gentle temperament. <br />
@@ -91,7 +91,7 @@ const Bulldog = () => {
         </div>
       </div>
       <div className="w-full mt-24  text-gray-950  ">
-        <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
+        <div className="flex flex-col text-justify justify-center max-w-screen-lg mx-auto h-full">
           <div className="">
             <hr className="border-3 border-black mb-3" />
             <p className="text-4xl font-extrabold text-rose-900 ">
@@ -387,8 +387,8 @@ const Bulldog = () => {
         </div>
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
-        <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+        <div className="flex flex-col text-justify justify-center max-w-screen-lg mx-auto h-full">
+          <div className="pb-8 text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
@@ -443,8 +443,8 @@ const Bulldog = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+          <div className="pb-8 text-justify">
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white font-medium">
               In the tapestry of canine companionship, Bulldogs stitch a story
               of enduring charm, resilience, and unwavering love. Beyond their
               iconic appearance lies a heart as vast as their loyalty, and a

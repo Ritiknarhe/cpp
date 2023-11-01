@@ -13,9 +13,9 @@ const Dog3 = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-900 md:text-5xl lg:text-6xl dark:text-white  ">
-              German Shepherd <br />
+            <span className="text-blue-600">German</span> Shepherd <br />
               <span className="text-2xl font-semibold ">Guardians of Hearts and Homes</span>
             </h1>
 
@@ -25,7 +25,7 @@ const Dog3 = () => {
               alt=""
             />
 
-            <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 mt-5 text-2xl text-gray-900 text-justify dark:text-white font-medium">
               German Shepherds, with their unwavering loyalty and unmatched
               intelligence, stand as a testament to the extraordinary bond
               between humans and dogs. Originating in Germany, these majestic
@@ -46,10 +46,10 @@ const Dog3 = () => {
       <div className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-4">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
+            <p className="text-4xl font-bold inline border-b-4 text-justify border-gray-500 ">
               {""}Quick Facts{""}
             </p>
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white font-medium">
               <span className="text-3xl font-semibold"> Origin: </span>
               Germany, bred in the late 19th century for herding and guarding
               purposes. <br />
@@ -393,8 +393,8 @@ const Dog3 = () => {
         </div>
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
-        <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+        <div className="flex flex-col text-justify justify-center max-w-screen-lg mx-auto h-full">
+          <div className="pb-8 text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
@@ -447,8 +447,8 @@ const Dog3 = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+          <div className="pb-8 text-justify">
+            <p className="py-6 text-2xl text-justify text-gray-900  dark:text-white font-medium">
             <img
               className="h-auto w-auto"
               src="https://img.freepik.com/premium-photo/silhouette-girl-with-big-dog-sunset_592721-566.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696636800&semt=ais"

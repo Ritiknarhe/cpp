@@ -13,9 +13,9 @@ const Pug = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-900 md:text-5xl lg:text-6xl dark:text-white  ">
-              Pug <br /> <span className="text-2xl font-semibold">Love Wrapped in Wrinkles</span>
+            <span className="text-blue-600">P</span>ug <br /> <span className="text-2xl font-semibold">Love Wrapped in Wrinkles</span>
             </h1>
 
             <img
@@ -24,7 +24,7 @@ const Pug = () => {
               alt=""
             />
 
-            <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 mt-5 text-2xl text-justify text-gray-900  dark:text-white font-medium">
               Pugs, with their wrinkled faces and curled tails, are undeniably
               one of the most charming and beloved dog breeds in the world.
               Originating from China, these small canines are characterized by
@@ -42,8 +42,8 @@ const Pug = () => {
         </div>
       </div>
       <div className="w-full  bg-sky-50 text-gray-950">
-        <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-4">
+        <div className="flex flex-col text-justify justify-center max-w-screen-lg mx-auto h-full">
+          <div className="pb-4 text-justify">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
               {""}Quick Facts{""}
             </p>
@@ -390,7 +390,7 @@ const Pug = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
@@ -433,11 +433,11 @@ const Pug = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+          <div className="pb-8 text-justify">
+            <p className="py-6 text-2xl text-justify text-gray-900  dark:text-white font-medium">
             <img
               className="h-auto w-auto"
-              src="https://media-be.chewy.com/wp-content/uploads/2021/04/16140525/Beagle_Featured-Image-1024x615.jpg "
+              src="https://media-be.chewy.com/wp-content/uploads/2021/05/27140116/Pug_FeaturedImage.jpg "
               alt=""
             /> <br /><br />
               In the enchanting realm of canine companionship, Pugs stand as

@@ -13,7 +13,7 @@ const Rottweiler = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-900 md:text-5xl lg:text-6xl dark:text-white  ">
               <span className="text-rose-900">Rott</span>weiler <br />
               <span className="text-2xl font-semibold">
@@ -27,7 +27,7 @@ const Rottweiler = () => {
               alt=""
             />
 
-            <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 mt-5 text-2xl text-justify text-gray-900  dark:text-white font-medium">
               <span className="text-rose-900 font-semibold text-2xl">
                 Rottweiler
               </span>
@@ -53,7 +53,7 @@ const Rottweiler = () => {
       </div>
       <div className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-4">
+          <div className="pb-4 text-justify">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
               {""}Qucik Facts{""}
             </p>
@@ -410,8 +410,8 @@ const Rottweiler = () => {
         </div>
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
-        <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+        <div className="flex flex-col text-justify justify-center max-w-screen-lg mx-auto h-full">
+          <div className="pb-8 text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
@@ -463,8 +463,8 @@ const Rottweiler = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+          <div className="pb-8 text-justify">
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white font-medium">
             <img
               className="h-auto w-auto"
               src="https://images6.alphacoders.com/130/1303419.jpg"

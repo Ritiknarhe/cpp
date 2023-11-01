@@ -13,7 +13,7 @@ const Dog1 = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-800 md:text-5xl lg:text-6xl dark:text-white  ">
               <span className="text-blue-600">Lab</span>rador <br />
               <span className="text-2xl font-semibold">The Loyal Heartbeat of Love</span>
@@ -26,7 +26,7 @@ const Dog1 = () => {
             />
 
             <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
-              <span className="text-2xl font-bold text-rose-900">Labrador</span> Retrievers, often simply referred to as "Labradors" or
+              <span className="text-2xl font-bold text-rose-900 text-justify">Labrador</span> Retrievers, often simply referred to as "Labradors" or
               "Labs," are one of the most popular and beloved dog breeds in the
               world. Their friendly disposition, intelligence, and striking
               appearance make them a top choice for families, individuals, and
@@ -40,12 +40,12 @@ const Dog1 = () => {
       </div>
       <div className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-4">
+          <div className="pb-4 text-justify">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
               {""}Quick Facts{""}
             </p>
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
-              <span className="text-3xl font-semibold"> Origin: </span>Labrador
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white justify-normal font-medium">
+              <span className="text-3xl font-semibold "> Origin: </span>Labrador
               Retrievers hail from Newfoundland, Canada. <br />
               <br />
               <span className="text-3xl font-semibold"> Size: </span>Males stand
@@ -402,11 +402,11 @@ const Dog1 = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white font-medium">
             <span className="text-3xl font-semibold">Friendly and Social</span> Labradors are renowned for their friendly and
               sociable nature. They are known to be excellent with children and
               make wonderful family pets. <br />
@@ -429,7 +429,7 @@ const Dog1 = () => {
               low-maintenance. Regular brushing helps keep their coat healthy
               and reduces shedding. <br />
               <br />
-              <span className="text-3xl font-semibold">Health:</span> Generally healthy, Labradors can be susceptible to
+              <span className="text-3xl font-semibold text-justify">Health:</span> Generally healthy, Labradors can be susceptible to
               specific genetic health issues like Joint problems, such as hip or
               elbow dysplasia, Weight problems , Ear infections, Heart disease,
               Bloat. Responsible breeding practices and regular veterinary
@@ -441,8 +441,8 @@ const Dog1 = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+          <div className="pb-8 text-justify">
+            <p className="py-6 text-2xl text-justify text-gray-900  dark:text-white font-medium">
             <img
               className="h-auto w-auto"
               src="https://images.unsplash.com/photo-1605897472359-85e4b94d685d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8N3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"

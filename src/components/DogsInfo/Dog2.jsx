@@ -13,7 +13,7 @@ const Dog2 = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-700 md:text-5xl lg:text-6xl dark:text-white  ">
               <span className="text-blue-500">Golden</span> Retriever <br />
               <span className="text-2xl font-semibold">
@@ -27,8 +27,8 @@ const Dog2 = () => {
               alt=""
             />
 
-            <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
-              <span className="text-rose-900 font-bold text-2xl">Golden Retriveres</span>, with their luscious golden coats and warm,
+            <p className="py-6 mt-5 text-2xl text-gray-900 text-justify dark:text-white font-medium">
+              <span className="text-rose-900 font-bold text-justify text-2xl">Golden Retriveres</span>, with their luscious golden coats and warm,
               friendly eyes, have captured the hearts of dog lovers worldwide.
               Often described as the epitome of the perfect family dog, Golden
               Retrievers are not just pets; they are beloved companions known
@@ -44,11 +44,11 @@ const Dog2 = () => {
       </div>
       <div className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-4">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
+          <div className="pb-4 text-justify">
+            <p className="text-4xl font-bold inline text-justify border-b-4 border-gray-500 ">
               {""}Quick Facts{""}
             </p>
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 text-2xl text-justify text-gray-900  dark:text-white font-medium">
               <span className="text-3xl font-semibold"> Origin: </span>
               Scotland, 19th century, bred for hunting and friendly disposition.{" "}
               <br />
@@ -397,11 +397,11 @@ const Dog2 = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 text-2xl text-gray-900 text-justify dark:text-white font-medium">
             <span className="text-3xl font-semibold">
               
               Friendly Companions:</span> Golden Retrievers are renowned for their
@@ -445,9 +445,9 @@ const Dog2 = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 text-2xl text-gray-900  dark:text-white text-justify font-medium">
             <img
               className="h-auto w-auto"
               src="https://e0.pxfuel.com/wallpapers/466/484/desktop-wallpaper-sunset-sun-dogs-dog-beach-sunset.jpg"

@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill,BsInstagram,BsTwitter } from "react-icons/bs";
+import { BsFillPersonLinesFill,BsInstagram } from "react-icons/bs";
+import {FaTwitter } from "react-icons/fa6";
 
 const SocialLinks = () => {
   return (
@@ -11,7 +12,7 @@ const SocialLinks = () => {
               "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 font-bold border-black bg-violet-900" 
               
             }>
-                <a href="https://instagram.com/" className="flex justify-between items-center w-full text-white"
+                <a href="https://www.instagram.com/furry_finds_4_u/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" className="flex justify-between items-center w-full text-white"
               
               target="_blank"
               rel="noreferrer">
@@ -24,12 +25,12 @@ const SocialLinks = () => {
               "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 font-bold bg-cyan-200" 
               
             }>
-                <a href="https://twitter.com/" className="flex justify-between items-center w-full text-gray-600"
+                <a href="https://twitter.com/Furry_Finds_4_U" className="flex justify-between items-center w-full text-gray-600"
               
               target="_blank"
               rel="noreferrer">
                     <>
-                    Twitter <BsTwitter size ={30}/>
+                    Twitter <FaTwitter size ={30}/>
                 </>
                 </a>
             </li>
@@ -37,7 +38,7 @@ const SocialLinks = () => {
               "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 font-bold bg-cyan-200" 
               
             }>
-                <a href="mailto:ritiknarhe.com" className="flex justify-between items-center w-full text-gray-600"
+                <a href="mailto:furryfinds004@gmail.com" className="flex justify-between items-center w-full text-gray-600"
               
               target="_blank"
               rel="noreferrer">

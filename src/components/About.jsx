@@ -8,7 +8,7 @@ const About = () => {
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div >
-        <div className="font-semibold text-2xl">
+        <div className="font-semibold text-justify text-2xl">
         <p >
         Welcome to FURRY FINDS, where your journey to finding the ideal canine 
         companion begins. At FURRY FINDS, we understand that every dog lover is 

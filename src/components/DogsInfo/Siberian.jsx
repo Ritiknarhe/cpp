@@ -13,9 +13,9 @@ const Siberian = () => {
       <br />
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify">
             <h1 class="mb-4 py-10 text-4xl font-extrabold  text-gray-900 md:text-5xl lg:text-6xl dark:text-white  ">
-              Siberian Husky <br />
+            <span className="text-blue-600">Serbain</span> Husky <br />
               <span className="text-2xl font-semibold">
                 Where Howling Melodies and Hearts Unite
               </span>
@@ -27,7 +27,7 @@ const Siberian = () => {
               alt=""
             />
 
-            <p className="py-6 mt-5 text-2xl text-gray-900  dark:text-white font-medium">
+            <p className="py-6 mt-5 text-2xl text-justify text-gray-900  dark:text-white font-medium">
               Siberian Huskies, with their striking wolf-like appearance and
               unwavering endurance, embody the spirit of adventure and
               companionship. Originating from Siberia, these majestic dogs were
@@ -48,7 +48,7 @@ const Siberian = () => {
       </div>
       <div className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-4">
+          <div className="pb-4 text-justify">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
               {""}Quick Facts{""}
             </p>
@@ -397,7 +397,7 @@ const Siberian = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
+          <div className="pb-8 text-justify text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>
@@ -447,8 +447,8 @@ const Siberian = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8">
-            <p className="py-6 text-2xl text-gray-900  dark:text-white font-medium">
+          <div className="pb-8 text-justify text-justify">
+            <p className="py-6 text-2xl text-justify text-gray-900  dark:text-white font-medium">
               In the realm of extraordinary companions, Siberian Huskies stand
               as captivating symbols of beauty, endurance, and boundless spirit.
               With their mesmerizing blue eyes, wolf-like grace, and unyielding
