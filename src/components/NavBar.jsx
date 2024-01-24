@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-
+import { PiDog } from "react-icons/pi";
 
 
 import {Link} from 'react-router-dom'
@@ -37,14 +37,14 @@ const dog1=()=>{
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-between items-center w-full h-20  bg-violet-900 px-4 fixed  ">
+    <div className="flex justify-between items-center w-full h-24 border-b border-gray-300 bg-cyan-200 px-4 fixed  ">
       <div>
-        <h1 className="text-5xl  ml-2  cursor-pointer ">
+        <h1 className="text-5xl  ml-5  cursor-pointer ">
           <p onClick={home} >
           <div class="mb-6 md:mb-0">
               <a href="#" class="flex items-center">
-                  <img src="https://clipart-library.com/images/gTe5G8KLc.png " class="h-8 mr-3" alt="FlowBite Logo" />
-                  <span  class="self-center text-xl font-semibold whitespace-nowrap  text-white">Furry Finds</span>
+                  <img src="https://img.icons8.com/?size=512&id=9199&format=png  " class="h-10 mr-3" alt="FlowBite Logo" />
+                  <span  class="self-center text-4xl font-semibold whitespace-nowrap  ">Furry Finds</span>
               </a>
           </div>
           </p>
@@ -57,18 +57,18 @@ const dog1=()=>{
       
         
         <ul className="hidden md:flex">
-          <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-500">
-            <button onClick={log} className=" group   text-white w-fit px-5 py-0  flex items-center rounded-md bg-gradient-to-r from-white to-blue-500 cursor-pointer transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ...">
+          <li className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-500">
+            <button onClick={log} className=" group   text-xl w-fit px-5 py-0  flex items-center  hover:border-b border-gray-800 hover:text-blue-700">
               Login
             </button>
           </li>
-          <p onClick={home} className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200">
+          <p onClick={home} className="px-4 cursor-pointer capitalize font-medium hover:scale-105 text-xl hover:border-b border-gray-800 duration-200 hover:text-blue-700">
           Home
             
           </p>
           <li  className="px-4 cursor-pointer capitalize font-medium  text-gray-950 ">
             
-<button onClick={()=> setIsOpen((prev)=> !prev)}  data-dropdown-toggle="dropdown" class="text-white  font-medium rounded-lg text-sm px-4 text-center inline-flex items-center dark:bg-blue-600" type="button">Breeds A-Z <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+<button onClick={()=> setIsOpen((prev)=> !prev)}  data-dropdown-toggle="dropdown" class=" hover:scale-105  font-medium text-xl px-4 text-center hover:border-b border-gray-800 inline-flex items-center hover:text-blue-700 dark:bg-blue-600" type="button">Breeds   <  PiDog className="ml-2 " size ={25}/><svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
   </svg></button>
   {isOpen && (
@@ -124,7 +124,7 @@ const dog1=()=>{
           </li>
           
           
-          <li onClick={store} className="px-4 cursor-pointer capitalize font-medium  text-white hover:scale-105 duration-200">
+          <li onClick={store} className="px-4 cursor-pointer capitalize font-medium hover:text-blue-700 hover:border-b border-gray-800 text-xl hover:scale-105 duration-200">
             Clinics
           </li>
           

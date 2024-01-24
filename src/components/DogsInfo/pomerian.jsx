@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar";
-import { Link } from "react-router-dom";
+
 
 import Footer from "../Footer";
 
@@ -389,7 +389,7 @@ const Pomerian = () => {
       </div>
       <div name="contact" className="w-full  bg-sky-50 text-gray-950">
         <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">
-          <div className="pb-8 text-justify text-justify">
+          <div className="pb-8 text-justify">
             <p className="text-3xl font-bold inline border-b-4 border-gray-500">
               Highlights:
             </p>

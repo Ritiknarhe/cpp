@@ -53,7 +53,7 @@ const Login = () => {
           <div className="w-full flex items-center justify-between ">
             
             <p className=" justify-center text-center font-bold cursor-pointer whitespace-nowrap underline underline-offset-2 mb-2 ">
-                forgot password?
+                Forgot password?
 
               </p>
           </div>

@@ -19,13 +19,13 @@ const navigate = useNavigate()
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
           <div className="flex flex-col justify-center h-full">
             <h2 className="text-4xl sm:text-6xl font-bold text-black">
-              Discover Your Perfect Pup with <span className="text-sky-600">  FurryFinds</span>
+              Discover Your Perfect Pup with <span className="text-sky-600 ">  FurryFinds</span>
               
             </h2>
             <br />
             <div>
               
-              <button onClick={predict} className=" group   text-white w-fit px-6 py-3 my-2 flex items-center rounded-md  cursor-pointer transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200 ...">
+              <button onClick={predict} className=" group   text-white w-fit px-6 py-3 my-2 flex items-center rounded-md  cursor-pointer transition ease-in-out delay-180 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200 ...">
                 Find Your Match
                 <span className=" ">
                   <MdKeyboardArrowRight size={25} className="ml-1" />

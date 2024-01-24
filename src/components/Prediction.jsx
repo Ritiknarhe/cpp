@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import { Link } from "react-router-dom";
+
 
 import Footer from "./Footer";
 
@@ -37,121 +37,216 @@ const Predictioin = () => {
 <ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Small</label>
         </div>
     </li> 
     <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
         </div>
     </li>
     
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Large</label>
         </div>
     </li>
     
     <li class="w-full dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
         </div>
     </li>
 </ul>
 <br /><br />
-<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Size</h3>
+
+
+<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Vocality</h3>
 <ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Small</label>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Low</label>
         </div>
     </li> 
     <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
         </div>
     </li>
     
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Large</label>
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">High</label>
         </div>
     </li>
     
     <li class="w-full dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
         </div>
     </li>
 </ul>
 <br /><br />
-<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Size</h3>
+<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Grooming frequency</h3>
 <ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Small</label>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Low</label>
         </div>
     </li> 
     <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
         </div>
     </li>
     
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Large</label>
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">High</label>
         </div>
     </li>
     
     <li class="w-full dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 "/>
             <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
         </div>
     </li>
 </ul>
 <br /><br />
-<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Size</h3>
+<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Trainability</h3>
 <ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Small</label>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Low</label>
         </div>
     </li> 
     <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
         </div>
     </li>
     
     <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Large</label>
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">High</label>
         </div>
     </li>
     
     <li class="w-full dark:border-gray-600">
         <div class="flex items-center pl-3">
-            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
             <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
         </div>
     </li>
 </ul>
+<br /><br />
+
+<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Energy level
+</h3>
+<ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+    <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Low</label>
+        </div>
+    </li> 
+    <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
+        </div>
+    </li>
+    
+    <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">High</label>
+        </div>
+    </li>
+    
+    <li class="w-full dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
+        </div>
+    </li>
+</ul>
+<br /><br />
+<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Protective nature</h3>
+<ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+    <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Low</label>
+        </div>
+    </li> 
+    <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
+        </div>
+    </li>
+    
+    <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">High</label>
+        </div>
+    </li>
+    
+    <li class="w-full dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
+        </div>
+    </li>
+</ul>
+<br /><br />
+<h3 class="mb-4  text-3xl font-bold text-gray-900 dark:text-white">Shedding</h3>
+<ul class="text-2xl items-center w-full  font-semibold text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+    <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class=" w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="vue-checkbox-list" class= " text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">Low</label>
+        </div>
+    </li> 
+    <li class="w-full border-b  border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="react-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">Medium</label>
+        </div>
+    </li>
+    
+    <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="angular-checkbox-list" class="w-full py-3 ml-2 text-xl font-semibold text-gray-900 dark:text-gray-300">High</label>
+        </div>
+    </li>
+    
+    <li class="w-full dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input  id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  "/>
+            <label for="laravel-checkbox-list" class="text-xl w-full py-3 ml-2  font-semibold text-gray-900 dark:text-gray-300">No Preference</label>
+        </div>
+    </li>
+</ul>
+<br /><br />
 
 
           </div>
