@@ -1,11 +1,25 @@
 import React from "react";
+import { useState } from "react";
 
 import NavBar from "./NavBar";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 
 import { FcGoogle } from "react-icons/fc";
+import axios from 'axios';
+
 
 const SignUp = () => {
+  const [name, setName]=useState()
+  const [email, setEmail]=useState()
+  const [password, setPassword]=useState()
+  const handleSubmit = (e) =>{
+    e.preventDefault()
+     
+    axios.post('http://localhost:3001/register', {name,email,password})
+    .then(result => console.log(result))
+    .catch(err=> console.log(err))
+  }
+
   return (
     <div className="w-full h-screen flex items-start">
       <NavBar />
@@ -16,19 +30,36 @@ const SignUp = () => {
           alt="dog"
         />
       </div>
-      <div className="w-1/2 h-full bg-white flex flex-col p-20 justify-between ">
+      
+      <form onSubmit={handleSubmit} className="w-1/2 h-full bg-white flex flex-col p-20 justify-between ">
         <div className="w-full flex flex-col max-w-[550px]">
+          
           <div className="w-full flex flex-col mb-10">
+         
             <h3 className="text-3xl font-semibold mb-2 mt-10  ">Sign Up</h3>
             
           </div>
-          <div className="w-full flex flex-col">
-            <span class="after:content-['*']  after:ml-0.5 after:text-red-500 block font-semibold text-slate-950">
+          <div  className="w-full flex flex-col">
+          <span class="after:content-['*']  after:ml-0.5 after:text-red-500 block font-semibold text-slate-950">
+              Name
+            </span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              onChange={(e) => setName(e.target.value)}
+              
+              className="w-full text-black py-2 my-4 bg-transparent border-b border-black outline-none focus:outline-none peer after:content-['*'] after:ml-0.5 after:text-red-500 "
+            />
+          <span class="after:content-['*']  after:ml-0.5 after:text-red-500 block font-semibold text-slate-950">
               Email
             </span>
             <input
               type="email"
+              name="email"
               placeholder="you@example.com"
+              onChange={(e) => setEmail(e.target.value)}
+              
               className="w-full text-black py-2 my-4 bg-transparent border-b border-black outline-none focus:outline-none peer after:content-['*'] after:ml-0.5 after:text-red-500 "
             />
             <p class="invisible peer-invalid:visible text-pink-600 text-sm">
@@ -40,27 +71,22 @@ const SignUp = () => {
 
             <input
               type="password"
+              name="password"
               placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
               className="w-full text-black py-2 my-4 bg-transparent border-b border-black outline-none focus:outline-none"
             />
-            <span class="after:content-['*'] after:ml-0.5 after:text-red-700 font-semibold block text-sm font-large text-slate-700">
-              Confirm Password
-            </span>
-
-            <input
-              type="password"
-              placeholder="Re-Enter Password"
-              className="w-full text-black py-2 my-4 bg-transparent border-b border-black outline-none focus:outline-none"
-            />
+            
           </div>
           <div className="w-full flex items-center justify-between "></div>
         </div>
 
         <div className="full flex flex-col">
-          <button className="full bg-cyan-400 rounded-md p-4 text-center flex items-center justify-center font-semibold text-black mt-2">
+          <button type="submit" className="full bg-cyan-400 rounded-md p-4 text-center flex items-center justify-center font-semibold text-black mt-2">
             Sign Up
           </button>
         </div>
+       
         <div className="w-full flex items-center justify-center mt-3">
           <p className="text-sm font-normal text-black ">
             Have an account already? 
@@ -99,7 +125,7 @@ const SignUp = () => {
             Instagram
           </button>
         </div>
-      </div>
+      </form>
     </div>
   );
 };
