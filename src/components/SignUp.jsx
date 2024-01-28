@@ -6,17 +6,21 @@ import { BsInstagram, BsTwitter } from "react-icons/bs";
 
 import { FcGoogle } from "react-icons/fc";
 import axios from 'axios';
-
+import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const [name, setName]=useState()
   const [email, setEmail]=useState()
   const [password, setPassword]=useState()
+  const navigate = useNavigate()
   const handleSubmit = (e) =>{
+    
     e.preventDefault()
      
     axios.post('http://localhost:3001/register', {name,email,password})
-    .then(result => console.log(result))
+    .then(result => {console.log(result)
+        navigate('/login')
+    })
     .catch(err=> console.log(err))
   }
 
@@ -91,7 +95,7 @@ const SignUp = () => {
           <p className="text-sm font-normal text-black ">
             Have an account already? 
             
-            <a href="/login"  >
+            <a   >
             <span className="font-semibold underline inderline-off ml-1">
               Login
 
