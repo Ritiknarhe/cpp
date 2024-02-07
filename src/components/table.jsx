@@ -14,16 +14,16 @@ const Table = ({ data }) => {
         <thead class="text-xl text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 ">
             <tr>
                 <th scope="col" class="px-6 py-3">
-                    Product name
+                    Clinic name
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Color
+                    Address
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Category
+                    Mobile No.
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Price
+                    Pincode
                 </th>
             </tr>
         </thead>
@@ -38,9 +38,9 @@ const Table = ({ data }) => {
                 {item.last_name}
                 </td>
                 <td class="px-6 py-4">
-                    Laptop
+                {item.phone}
                 </td>
-                <td class="px-6 py-4">
+                <td class="px-6 py-4 font-semibold text-black">
                 {item.email}
                 </td>
             </tr>
