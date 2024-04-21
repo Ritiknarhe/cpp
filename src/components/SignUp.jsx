@@ -16,6 +16,8 @@ const SignUp = () => {
   const handleSubmit = (e) =>{
     
     e.preventDefault()
+
+    
      
     axios.post('http://localhost:3001/register', {name,email,password})
     .then(result => {console.log(result)
@@ -95,7 +97,7 @@ const SignUp = () => {
           <p className="text-sm font-normal text-black ">
             Have an account already? 
             
-            <a   >
+            <a  href="/login" >
             <span className="font-semibold underline inderline-off ml-1">
               Login
 

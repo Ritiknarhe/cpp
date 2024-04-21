@@ -14,7 +14,7 @@ const Table = ({ data }) => {
         <thead class="text-xl text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 ">
             <tr>
                 <th scope="col" class="px-6 py-3">
-                    Clinic name
+                    Store name
                 </th>
                 <th scope="col" class="px-6 py-3">
                     Address

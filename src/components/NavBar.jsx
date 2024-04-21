@@ -125,7 +125,7 @@ const dog1=()=>{
           
           
           <li onClick={store} className="px-4 cursor-pointer capitalize font-medium hover:text-blue-700 hover:border-b border-gray-800 text-xl hover:scale-105 duration-200">
-            Clinics
+            Stores
           </li>
           
          
